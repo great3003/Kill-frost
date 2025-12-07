@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Genjutsu: Save/Kill Frost</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="frame" id="frame">
+    <div class="scanline" aria-hidden="true"></div>
+
+    <div class="card" role="group" aria-labelledby="title">
+      <h1 class="title" id="title"><span class="glitch">Frost</span> is caught in a genjutsu.</h1>
+      <p class="subtitle">Your mind splits: one path claims mercy, the other justice. The illusion watches.</p>
+
+      <div class="choices">
+        <button class="choice save" id="btnSave" aria-label="Save Frost">Save Frost</button>
+        <button class="choice kill" id="btnKill" aria-label="Kill Frost">Kill Frost</button>
+      </div>
+
+      <div class="output" id="output" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <div class="curtain" id="curtain" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
